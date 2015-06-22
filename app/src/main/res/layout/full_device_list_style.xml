@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="60dp"
+              android:orientation="horizontal">
+
+	<CheckBox
+		android:id="@+id/fullCheckBoxID"
+		android:layout_width="50dp"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:layout_marginTop="-5dp"
+		android:layout_marginLeft="13dp"
+		android:layout_weight="1"/>
+
+	<LinearLayout
+		android:id="@+id/fullLinearLayoutID"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="50">
+
+		<TextView
+			android:id="@+id/fullDeviceNameID"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/checkBox1"
+			android:layout_toRightOf="@+id/checkBox1"
+			android:text="TextViews"
+			android:layout_alignParentTop="true"
+			android:gravity="center_vertical"
+			android:textSize="20dp"
+			android:layout_weight="1.4"
+			android:paddingTop="2dp"
+			android:paddingBottom="2dp"
+			android:textColor="#242415"/>
+
+		<TextView
+			android:id="@+id/fullDeviceAddressID"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Small Text"
+			android:textSize="13dp"
+			android:layout_weight="0.6"
+			android:paddingBottom="6dp"
+			android:paddingLeft="2dp"
+			android:paddingTop="1dp"
+			android:textColor="#353526"/>
+	</LinearLayout>
+
+</LinearLayout>

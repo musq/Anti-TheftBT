@@ -1,0 +1,61 @@
+<resources>
+	<string name="app_name">Anti-Theft BT</string>
+
+	<string name="passwordSplashTitleText">ENTER PASSWORD</string>
+	<string name="bPasswordSplashOKText">OK</string>
+
+	<string name="chosenListTitleText">PAIRED DEVICES LIST (CHOSEN)</string>
+	<string name="chosenStartServiceButtonText">START SERVICE</string>
+	<string name="chosenRefreshButtonText">REFRESH LIST</string>
+
+	<string name="fullListTitleText">PAIRED DEVICES LIST (FULL)</string>
+	<string name="fullSaveButtonText">SAVE</string>
+
+	<string name="missingListTitleText">MISSING DEVICES LIST</string>
+	<string name="missingRefreshButtonText">REFRESH LIST</string>
+
+	<string name="menuStopServiceText">Stop Service</string>
+	<string name="menuSettingsText">Settings</string>
+	<string name="menuMissingDevicesText">Missing Devices List</string>
+	<string name="menuLogText">Start Logging</string>
+	<string name="menuAboutText">About &amp; Help</string>
+	<string name="menuExitText">Exit</string>
+
+	<string name="ConfirmStopServiceYesButtonText">YES</string>
+	<string name="ConfirmStopServiceNoButtonText">NO</string>
+
+	<string name="settingsTitleText">SETTINGS</string>
+
+	<string name="ResetServiceYesButtonText">YES</string>
+	<string name="ResetServiceNoButtonText">NO</string>
+
+	<string name="MCTSaveButtonText">SAVE</string>
+	<string name="MCTResetButtonText">RESET</string>
+
+	<string name="DelaySaveButtonText">SAVE</string>
+	<string name="DelayResetButtonText">RESET</string>
+
+	<string name="tvAskForPasswordText">Ask password on start?</string>
+	<string name="PasswordButtonText">SAVE</string>
+
+	<string name="missingSoundTitleText">CHOOSE MISSING ALERT SOUND</string>
+	<string name="missingSoundButtonText">OR, CHOOSE CUSTOM AUDIO</string>
+
+	<string name="select_audio_file_title">SELECT AUDIO FILE</string>
+
+	<string name="aboutMeTitleText">ABOUT ME</string>
+	<string name="aboutMeDataText">Created by: ASHISH RANJAN\nDept. of Electrical Engineering\nIIT Delhi</string>
+	<string name="aboutHelpTitleText">HELP $ TIPS</string>
+	<string name="aboutHelpDataText">DISCLAIMER: This app is designed to be used for socially &amp; legally acceptable usages. The creator of this app is not responsible in any way for any kind of misuses done by the user. Please use this app for socially &amp; legally acceptable practices.\n\nHOW TO USE:\n\n 1. Select the required devices using the checkboxes in Full Device List activity. This activity is accessible from \'Add devices to list\' item in Settings.\n\n 2. Click any of the devices in the \'Chosen devices list\' activity to verify if connection to it could be made or not. If the icon of this device changes to \'Green Tick\', then the connection to it is successful. If the icon remains \'Red Cross\', the connection could not be established.\n\n 3. After successful connection to every device in the list has been made, press the \'Start Service\' button to begin the scan. You may close the app using back button or the home button now.\n\n 4. Your mobile will pop notifications/alarm whenever any of the device(s) go out of range of your mobile.\n\n 5. When the missing device returns back in range of your mobile, the notifications/alarm stops automatically.\n\n NOTE 1:  If the target device/mobile is not able to successfully connect, then there is a problem with the target device. Please ensure that you have given appropriate permissions such as \'allow automatically connect\' in your target device.\n\n NOTE 2:  If you want a detailed know-how of this app, please visit the above \'Wordpress\' link.\n\n NOTE 3: This app is open-source. Please visit the above \'GitHub\' link for source-code.\n\n NOTE 4:  To see logs in Eclipse/Android Studio, add Log-Filter with LogTag(Regex) = ranjan.anti_theftbt.TAG\n </string>
+
+	<string name="aboutMyChoiceTitleText">SOMETHING, I WANT TO TALK ABOUT</string>
+	<string name="aboutMyChoiceData1Text">Your privacy is very important to me and it should be important to yourself too! This app does not ask for your personal details. You must have noticed that it gives you the control whether to include \'device name\' in the logs or not. It does not ask for any permissions other than -\n\n 1. BLUETOOTH PERMISSION: to use the bluetooth (obviously, this app cannot run without bluetooth)\n 2. WRITE ON EXTERNAL SD-CARD: to store logs on external sd-card (well, this is controlled by user) \n\n      REMEMBER: THIS IS NOT AN ADVERTISEMENT! \n\n  I want to talk about your privacy and how you can be more secure on the internet. There have been countless privacy violations by many governments and topmost companies. These companies make a cyber-profile of yourself based on your personal details, your searches, your video views, etc. These cyber-profiles are not the actual representation of yourself, but to an outsider, you are what you appear in your cyber-profile. This is terrifying! So, it has become imperative that you must be more secure and private on the internet. \n\n I found \'Epic Privacy Browser\' to be extremely handy for this job. This browser is built on chromium (open source), so it feels just like chrome, minus the snooping &amp; tracking. And IT\'S FREE!\n \'Epic Privacy Browser\' is not made by me. I have no affiliations with the creators of \'Epic Privacy Browser\'. I am not getting any revenue from this. I am doing this just because I found it to be extremely useful and want to pay the creators my regards. This is a way to thank them!\n </string>
+
+	<string name="aboutMyChoiceDataEpicBrowserLink">Please, at least pay their website a visit and decide for yourself.</string>
+	<string name="aboutMyChoiceData2Text">\n Edward Snowden rocks!!\n\n Regards,\n Ashish Ranjan\n</string>
+
+	<string name="ExitYesButtonText">YES</string>
+	<string name="ExitNoButtonText">NO</string>
+	<string name="ExitCancelButtonText">CANCEL</string>
+
+</resources>

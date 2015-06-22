@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/settingsTitleID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/settingsTitleText"
+			android:textSize="15dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:background="#c8cd6bcb"
+			android:textColor="#000000"/>
+
+		<ListView
+			android:id="@+id/settingsListID"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+	</LinearLayout>
+
+</RelativeLayout>

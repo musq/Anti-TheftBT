@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+	<item android:id="@+id/menuStopServiceID"
+	      android:icon="@drawable/stop"
+	      android:title="@string/menuStopServiceText"
+	      app:showAsAction="never"
+	      android:orderInCategory="1"/>
+
+	<item android:id="@+id/menuMissingDevicesID"
+	      android:icon="@drawable/missing"
+	      android:title="@string/menuMissingDevicesText"
+	      app:showAsAction="always|withText"
+	      android:orderInCategory="2" />
+
+	<item android:id="@+id/menuLogID"
+	      android:icon="@drawable/log"
+	      android:title="@string/menuLogText"
+	      app:showAsAction="never"
+	      android:orderInCategory="3" />
+
+	<item android:id="@+id/menuSettingsID"
+	      android:icon="@drawable/settings"
+	      android:title="@string/menuSettingsText"
+	      app:showAsAction="ifRoom|withText"
+	      android:orderInCategory="4" />
+
+	<item android:id="@+id/menuAboutID"
+	      android:icon="@drawable/help"
+	      android:title="@string/menuAboutText"
+	      app:showAsAction="never"
+	      android:orderInCategory="5" />
+
+	<item android:id="@+id/menuExitID"
+	      android:icon="@drawable/exit"
+	      android:title="@string/menuExitText"
+	      app:showAsAction="never"
+	      android:orderInCategory="6" />
+
+</menu>

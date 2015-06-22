@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/aboutMeTitleID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutMeTitleText"
+			android:textSize="18dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:background="#644458ef"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:id="@+id/aboutMeDataID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/aboutMeDataText"
+			android:textSize="18dp"
+			android:textColor="#000000"
+			android:gravity="center"
+			android:paddingBottom="15dp"
+			android:paddingLeft="5dp"
+			android:paddingTop="5dp"
+			android:paddingRight="5dp"
+			android:background="#14485dff"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="60dp">
+
+			<ImageView
+				android:id="@+id/ivAboutMeWordpressID"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:src="@drawable/wordpress"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp"
+				android:clickable="true"/>
+
+			<ImageView
+				android:id="@+id/ivAboutMeGithubID"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:src="@drawable/github"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp"
+				android:clickable="true"/>
+
+			<ImageView
+				android:id="@+id/ivAboutMeGmailID"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:src="@drawable/gmail"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp"
+				android:clickable="true"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/aboutHelpTitleID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutHelpTitleText"
+			android:textSize="18dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:background="#8affbc00"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:id="@+id/aboutHelpDataID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutHelpDataText"
+			android:textSize="17dp"
+			android:textColor="#242415"
+			android:paddingBottom="15dp"
+			android:paddingTop="5dp"
+			android:background="#0affbc00"/>
+
+		<TextView
+			android:id="@+id/aboutMyChoiceTitleID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutMyChoiceTitleText"
+			android:textSize="18dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:background="#6433ff87"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:id="@+id/aboutMyChoiceData1ID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutMyChoiceData1Text"
+			android:textSize="17dp"
+			android:textColor="#242415"
+			android:paddingBottom="15dp"
+			android:paddingTop="5dp"
+			android:background="#0a34ff86"/>
+
+		<TextView
+			android:id="@+id/aboutMyChoiceDataEpicBrowserID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutMyChoiceDataEpicBrowserLink"
+			android:textSize="17dp"
+			android:textColor="#242415"
+			android:paddingBottom="15dp"
+			android:paddingTop="5dp"
+			android:background="#0a34ff86"/>
+
+		<TextView
+			android:id="@+id/aboutMyChoiceData2ID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/aboutMyChoiceData2Text"
+			android:textSize="17dp"
+			android:textColor="#242415"
+			android:paddingBottom="15dp"
+			android:paddingTop="5dp"
+			android:background="#0a34ff86"/>
+
+	</LinearLayout>
+
+</ScrollView>

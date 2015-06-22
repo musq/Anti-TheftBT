@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/chosenParentLinearLayoutID"
+              android:layout_width="fill_parent"
+              android:layout_height="60dp"
+              android:orientation="horizontal">
+
+	<ImageView
+		android:id="@+id/chosenIconID"
+		android:layout_width="100dp"
+		android:layout_height="60dp"
+		android:layout_weight="4"
+		android:src="@drawable/no"
+		android:layout_gravity="center"
+		android:layout_marginLeft="5dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingTop="5dp"
+		android:paddingBottom="10dp"/>
+
+	<LinearLayout
+		android:id="@+id/chosenLinearLayoutID"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="5"
+		android:paddingLeft="5dp">
+
+		<TextView
+			android:id="@+id/chosenDeviceNameID"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/checkBox1"
+			android:layout_toRightOf="@+id/checkBox1"
+			android:text="TextViews"
+			android:layout_alignParentTop="true"
+			android:gravity="center_vertical"
+			android:textSize="20dp"
+			android:layout_weight="1.4"
+			android:paddingTop="2dp"
+			android:paddingBottom="2dp"
+			android:textColor="#242415"/>
+
+		<TextView
+			android:id="@+id/chosenDeviceAddressID"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Small Text"
+			android:textSize="13dp"
+			android:layout_weight="0.6"
+			android:paddingBottom="6dp"
+			android:paddingLeft="2dp"
+			android:paddingTop="1dp"
+			android:textColor="#353526"/>
+	</LinearLayout>
+
+</LinearLayout>

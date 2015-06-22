@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/chosenParentLinearLayoutID"
+              android:layout_width="fill_parent"
+              android:layout_height="55dp"
+              android:orientation="horizontal"
+              android:touchscreenBlocksFocus="true">
+
+	<LinearLayout
+		android:id="@+id/missingSoundLinearLayoutID"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="55dp">
+
+		<TextView
+			android:id="@+id/missingSoundItemNameID"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="Missing Sound Item"
+			android:gravity="center_vertical"
+			android:textSize="18dp"
+			android:textColor="#242415"
+			android:paddingLeft="5dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
