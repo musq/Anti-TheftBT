@@ -38,11 +38,10 @@ Anti-Theft BT is designed to protect your luggage and belongings. It works on Bl
 
 Keep in mind this is still a work in progress. There are thousands of things to do and I hope I'll have enough time to develop all of the features I have in mind :)
 
-| [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)]  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)] | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)] |
-|:---:|:---:|:---:|
+<!-- | [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)]()  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)] | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)] |
+|:---:|:---:|:---:| -->
 
-[![](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png)](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057894/1baf1ea2-d445-11e5-8814-c1df68fd7a53.png)](https://cloud.githubusercontent.com/assets/5080310/13057896/1bb327a4-d445-11e5-9af9-03aaa4046c32.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png)](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png) | [![](https://cloud.githubusercontent.com/assets/5080310/13057894/1baf1ea2-d445-11e5-8814-c1df68fd7a53.png)](https://cloud.githubusercontent.com/assets/5080310/13057896/1bb327a4-d445-11e5-9af9-03aaa4046c32.png)
 [![](https://cloud.githubusercontent.com/assets/5080310/13057895/1baf51ba-d445-11e5-9777-63f16c739701.png)](https://cloud.githubusercontent.com/assets/5080310/13057895/1baf51ba-d445-11e5-9777-63f16c739701.png)
 [![](https://cloud.githubusercontent.com/assets/5080310/13057893/1bae8ee2-d445-11e5-9c6f-d9a6f8154774.png)](https://cloud.githubusercontent.com/assets/5080310/13057893/1bae8ee2-d445-11e5-9c6f-d9a6f8154774.png)
 [![](https://cloud.githubusercontent.com/assets/5080310/13057892/1bace54c-d445-11e5-9ff8-696cb1c277ea.png)](https://cloud.githubusercontent.com/assets/5080310/13057892/1bace54c-d445-11e5-9ff8-696cb1c277ea.png)
