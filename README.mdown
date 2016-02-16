@@ -46,11 +46,11 @@ Keep in mind this is still a work in progress. There are thousands of things to 
 [![](https://cloud.githubusercontent.com/assets/5080310/13068984/8aae17fc-d4a6-11e5-971d-a214f057bfd3.png)](https://cloud.githubusercontent.com/assets/5080310/13068984/8aae17fc-d4a6-11e5-971d-a214f057bfd3.png)
 [![](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)
 [![](https://cloud.githubusercontent.com/assets/5080310/13068990/8b05305a-d4a6-11e5-8b61-d37ea8d6463e.png)](https://cloud.githubusercontent.com/assets/5080310/13068990/8b05305a-d4a6-11e5-8b61-d37ea8d6463e.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png)](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png)
+<!-- [![](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png)](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png) -->
 
 
 ##Installation
-Download the repositary and build using android studio. It will work
+Download the repositary and build using android studio.
 
 ##Software Used
 
