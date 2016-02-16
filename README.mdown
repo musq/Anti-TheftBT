@@ -41,10 +41,12 @@ Keep in mind this is still a work in progress. There are thousands of things to 
 <!-- | [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)]()  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)] | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)] |
 |:---:|:---:|:---:| -->
 
-[![](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png)](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png) | [![](https://cloud.githubusercontent.com/assets/5080310/13057894/1baf1ea2-d445-11e5-8814-c1df68fd7a53.png)](https://cloud.githubusercontent.com/assets/5080310/13057896/1bb327a4-d445-11e5-9af9-03aaa4046c32.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057895/1baf51ba-d445-11e5-9777-63f16c739701.png)](https://cloud.githubusercontent.com/assets/5080310/13057895/1baf51ba-d445-11e5-9777-63f16c739701.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057893/1bae8ee2-d445-11e5-9c6f-d9a6f8154774.png)](https://cloud.githubusercontent.com/assets/5080310/13057893/1bae8ee2-d445-11e5-9c6f-d9a6f8154774.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057892/1bace54c-d445-11e5-9ff8-696cb1c277ea.png)](https://cloud.githubusercontent.com/assets/5080310/13057892/1bace54c-d445-11e5-9ff8-696cb1c277ea.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068988/8b042a70-d4a6-11e5-9f65-6b7e7cb8b33f.png)](https://cloud.githubusercontent.com/assets/5080310/13068988/8b042a70-d4a6-11e5-9f65-6b7e7cb8b33f.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068984/8aae17fc-d4a6-11e5-971d-a214f057bfd3.png)](https://cloud.githubusercontent.com/assets/5080310/13068984/8aae17fc-d4a6-11e5-971d-a214f057bfd3.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068990/8b05305a-d4a6-11e5-8b61-d37ea8d6463e.png)](https://cloud.githubusercontent.com/assets/5080310/13068990/8b05305a-d4a6-11e5-8b61-d37ea8d6463e.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png)](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png)
 
 
 ##Installation
