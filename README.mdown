@@ -1,49 +1,56 @@
-#Anti-TheftBT
-
-Anti-Theft BT is designed to protect your luggage and belongings. It works on Bluetooth so it consumes very less battery. Once you start the service in app, the app start scanning your luggage. Whenever, your luggage leaves your proximity the app raises an alarm to let you know that a luggage has gone missing. The luggage may have an 'embedded bluetooth device' (like HC-06 / HC-05) or, a mobile phone with bluetooth switched ON which can be used as a beacon. When you start Anti-Theft BT (ATBT) for the first time, it asks you for the devices you want to protect. Once you save the list of chosen devices, it is accessible to you until you replace it with a new list of chosen devices (from settings).
-
-Before starting the ATBT service, please ensure that every device in the list is able to get connected to your device. This can be done by tapping the device name in the list. If the icon against it tuns into a green tick, then that device is able to connect to your mobile. If the icon remains red cross, it means there is a problem with the target device. You need to give permissions to target device to automatically connect to your device. If all the devices in the Chosen Device List have green tick, you are good to go! Once you tap the 'Start Service' button, the scanning service starts.
-
-If the Bluetooth accidentally gets turned off midway while the service is running, it is restarted again automatically!
-
-ATBT service runs with higher priority than rest of the default services of android. So, it keeps running until you manually stop it, or your battery runs out :P. This is important so that Android OS doesn't kill this service midway accidentally/automatically due to low memory.
-
-ATBT service can be stopped from 'Stop Service' button in menu.
-
-Logs can be created by tapping 'Start Logging'. It can be stopped by tapping 'Stop Logging' (the same button).
-
-The missing devices list shows the updated list of missing devices, i.e if a device goes missing but it comes in range again, the missing device list won't show it. The refresh button in 'Missing Device List' activity serves the same purpose.
-
-More devices can be added to the 'Chosen Device List' by using the 'Add devices to list' button in Settings menu.
-
-'Reset service' button resets the whole service. Use this only in extreme cases!
-
-'Maximum Connection Time' is the expiry time of an embedded timer of the app. When the app cannot connect to a device within this time, it will raise the alarm. Please use this with care. Default value it 6000 ms. Minimum value is 1000 ms. Average time for a connection to be established is about 5300 ms.
-
-'Delay' is the minimum sleep time between two consecutive connections to devices in the list. Default value is 100 ms. Minimum value is 100 ms.
-
-'Allow device name in log?' button gives you the control whether to include the devices' name in logs or not! This is to protect your privacy.
-
-'Password' button is to reset your password. Default password is nothing (i.e. empty) :P. It also has the option to let you decide whether you want password on every start of app or not. Password field can only accept numerical fields as input.
-
-'Missing Sound Alert' gives you the option of choosing the 'Custom alert audio'.
-
-You can see the missing devices from notifications even when the app is password protected. But you cannot stop the service until you have entered the correct password.
-
+##Anti-TheftBT
 
 [![](https://cloud.githubusercontent.com/assets/5080310/13058029/3b984b52-d446-11e5-8a91-dd9aac989359.png)](https://cloud.githubusercontent.com/assets/5080310/13058029/3b984b52-d446-11e5-8a91-dd9aac989359.png)
 
+Anti-Theft BT is designed to protect your luggage and belongings. It works on Bluetooth so it consumes very less battery. Once you start the service in app, the app start scanning your luggage. Whenever, your luggage leaves your proximity the app raises an alarm to let you know that a luggage has gone missing. The luggage may have an 'embedded bluetooth device' (like HC-06 / HC-05) or, a mobile phone with bluetooth switched ON which can be used as a beacon. When you start Anti-Theft BT (ATBT) for the first time, it asks you for the devices you want to protect. Once you save the list of chosen devices, it is accessible to you until you replace it with a new list of chosen devices (from settings).
+
+##Features
+
+- Before starting the ATBT service, please ensure that every device in the list is able to get connected to your device. This can be done by tapping the device name in the list. If the icon against it tuns into a green tick, then that device is able to connect to your mobile. If the icon remains red cross, it means there is a problem with the target device. You need to give permissions to target device to automatically connect to your device. If all the devices in the Chosen Device List have green tick, you are good to go! Once you tap the 'Start Service' button, the scanning service starts.
+
+- If the Bluetooth accidentally gets turned off midway while the service is running, it is restarted again automatically!
+
+- ATBT service runs with higher priority than rest of the default services of android. So, it keeps running until you manually stop it, or your battery runs out :P. This is important so that Android OS doesn't kill this service midway accidentally/automatically due to low memory.
+
+- ATBT service can be stopped from 'Stop Service' button in menu.
+
+- Logs can be created by tapping 'Start Logging'. It can be stopped by tapping 'Stop Logging' (the same button).
+
+- The missing devices list shows the updated list of missing devices, i.e if a device goes missing but it comes in range again, the missing device list won't show it. The refresh button in 'Missing Device List' activity serves the same purpose.
+
+- More devices can be added to the 'Chosen Device List' by using the 'Add devices to list' button in Settings menu.
+
+- 'Reset service' button resets the whole service. Use this only in extreme cases!
+
+- 'Maximum Connection Time' is the expiry time of an embedded timer of the app. When the app cannot connect to a device within this time, it will raise the alarm. Please use this with care. Default value it 6000 ms. Minimum value is 1000 ms. Average time for a connection to be established is about 5300 ms.
+
+- 'Delay' is the minimum sleep time between two consecutive connections to devices in the list. Default value is 100 ms. Minimum value is 100 ms.
+
+- 'Allow device name in log?' button gives you the control whether to include the devices' name in logs or not! This is to protect your privacy.
+
+- 'Password' button is to reset your password. Default password is nothing (i.e. empty) :P. It also has the option to let you decide whether you want password on every start of app or not. Password field can only accept numerical fields as input.
+
+- 'Missing Sound Alert' gives you the option of choosing the 'Custom alert audio'.
+
+- You can see the missing devices from notifications even when the app is password protected. But you cannot stop the service until you have entered the correct password.
+
+
+
 Keep in mind this is still a work in progress. There are thousands of things to do and I hope I'll have enough time to develop all of the features I have in mind :)
 
-[![](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png)](https://cloud.githubusercontent.com/assets/5080310/13057891/1ba9d74e-d445-11e5-824b-4da24a275aa1.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057894/1baf1ea2-d445-11e5-8814-c1df68fd7a53.png)](https://cloud.githubusercontent.com/assets/5080310/13057896/1bb327a4-d445-11e5-9af9-03aaa4046c32.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057895/1baf51ba-d445-11e5-9777-63f16c739701.png)](https://cloud.githubusercontent.com/assets/5080310/13057895/1baf51ba-d445-11e5-9777-63f16c739701.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057893/1bae8ee2-d445-11e5-9c6f-d9a6f8154774.png)](https://cloud.githubusercontent.com/assets/5080310/13057893/1bae8ee2-d445-11e5-9c6f-d9a6f8154774.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13057892/1bace54c-d445-11e5-9ff8-696cb1c277ea.png)](https://cloud.githubusercontent.com/assets/5080310/13057892/1bace54c-d445-11e5-9ff8-696cb1c277ea.png)
+<!-- | [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)]()  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)] | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)] |
+|:---:|:---:|:---:| -->
+
+[![](https://cloud.githubusercontent.com/assets/5080310/13068988/8b042a70-d4a6-11e5-9f65-6b7e7cb8b33f.png)](https://cloud.githubusercontent.com/assets/5080310/13068988/8b042a70-d4a6-11e5-9f65-6b7e7cb8b33f.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068984/8aae17fc-d4a6-11e5-971d-a214f057bfd3.png)](https://cloud.githubusercontent.com/assets/5080310/13068984/8aae17fc-d4a6-11e5-971d-a214f057bfd3.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)](https://cloud.githubusercontent.com/assets/5080310/13068989/8b046666-d4a6-11e5-90e4-6569086c05b7.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13068990/8b05305a-d4a6-11e5-8b61-d37ea8d6463e.png)](https://cloud.githubusercontent.com/assets/5080310/13068990/8b05305a-d4a6-11e5-8b61-d37ea8d6463e.png)
+<!-- [![](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png)](https://cloud.githubusercontent.com/assets/5080310/13068987/8b03c30a-d4a6-11e5-83a4-f6b8b7090b4a.png) -->
 
 
-##Downloads
-The application can be downloaded on the [SourceForge][gd_catalog_market]
+##Installation
+Download the repositary and build using android studio.
 
 ##Software Used
 
@@ -57,4 +64,3 @@ Go the [Android Developers website][android_developers_website] for complete ins
 
 
 [android_developers_website]: http://d.android.com/sdk/installing.html
-[gd_catalog_market]: https://sourceforge.net/p/antitheftbt/wiki/Home/
