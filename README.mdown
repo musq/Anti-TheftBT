@@ -52,6 +52,9 @@ Keep in mind this is still a work in progress. There are thousands of things to 
 ##Installation
 Download the repositary and build using android studio.
 
+##Download
+Download AntiTheft-BT apk file from [here](https://sourceforge.net/projects/antitheftbt/files/Anti-Theft%20BT.apk/download).
+
 ##Software Used
 
 It has been developed using the following software:
